@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_module/main_method_channel.dart';
 
 void main() => runApp(const MyApp());
 
@@ -71,6 +72,19 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        leading: GestureDetector(
+          onTap: () {
+            const mc =  MainMethodChannel();
+            mc.hostNavigateBack();
+          },
+          child: const SizedBox.square(
+            dimension: 48,
+            child: Padding(
+              padding: EdgeInsets.all(12),
+              child: Icon(Icons.arrow_back),
+            ),
+          ),
+        ),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
