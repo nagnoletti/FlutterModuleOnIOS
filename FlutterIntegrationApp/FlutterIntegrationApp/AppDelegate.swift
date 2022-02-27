@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import Flutter
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var flutterEngine: FlutterEngine? = nil
+    
+    static let shared: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.flutterEngine = FlutterEngine(name: "github.nagnoletti.FlutterIntegrationApp")
+        self.flutterEngine?.run()
+        
         return true
     }
 

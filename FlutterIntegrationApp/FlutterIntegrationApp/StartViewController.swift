@@ -22,7 +22,8 @@ class StartViewController: UIViewController {
     }
 
     @objc func goToFlutterButtonAction(_ sender: UIGestureRecognizer) {
-        // todo navigate
+        let myFlutterVc = MyFlutterViewController(engine: AppDelegate.shared.flutterEngine!, nibName: nil, bundle: nil)
+        self.present(myFlutterVc, animated: true, completion: nil)
     }
 
 }
