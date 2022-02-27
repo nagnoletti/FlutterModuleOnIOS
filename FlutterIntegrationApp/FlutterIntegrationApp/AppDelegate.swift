@@ -7,20 +7,21 @@
 
 import UIKit
 import Flutter
+import FlutterPluginRegistrant
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var flutterEngine: FlutterEngine? = nil
+    lazy var flutterEngine: FlutterEngine = FlutterEngine(name: "github.nagnoletti.FlutterIntegrationApp")
     
     static let shared: AppDelegate = UIApplication.shared.delegate as! AppDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        self.flutterEngine = FlutterEngine(name: "github.nagnoletti.FlutterIntegrationApp")
-        self.flutterEngine?.run()
-        
+        self.flutterEngine.run()
+        // Used to connect plugins (only if you have plugins with iOS platform code).
+        GeneratedPluginRegistrant.register(with: self.flutterEngine);
         return true
     }
 

@@ -14,6 +14,7 @@
 		011B8DFE27CBE21D00B66928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011B8DFD27CBE21D00B66928 /* Assets.xcassets */; };
 		011B8E0127CBE21D00B66928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011B8DFF27CBE21D00B66928 /* LaunchScreen.storyboard */; };
 		01ED97E327CBF30100FD1EF2 /* MyFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED97E227CBF30100FD1EF2 /* MyFlutterViewController.swift */; };
+		01ED97E527CC055500FD1EF2 /* MyFlutterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01ED97E427CC055500FD1EF2 /* MyFlutterViewController.xib */; };
 		BE231DFA6C914F2C9C8F9044 /* Pods_FlutterIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83064CF051E7F77D90F97A /* Pods_FlutterIntegrationApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		011B8E0027CBE21D00B66928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011B8E0227CBE21D00B66928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01ED97E227CBF30100FD1EF2 /* MyFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlutterViewController.swift; sourceTree = "<group>"; };
+		01ED97E427CC055500FD1EF2 /* MyFlutterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFlutterViewController.xib; sourceTree = "<group>"; };
 		D502FAF98314D8D65932646F /* Pods-FlutterIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterIntegrationApp.release.xcconfig"; path = "Target Support Files/Pods-FlutterIntegrationApp/Pods-FlutterIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
 		D719188DBA9FE3BB26CB9AE8 /* Pods-FlutterIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterIntegrationApp.debug.xcconfig"; path = "Target Support Files/Pods-FlutterIntegrationApp/Pods-FlutterIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EC83064CF051E7F77D90F97A /* Pods_FlutterIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlutterIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				011B8DFF27CBE21D00B66928 /* LaunchScreen.storyboard */,
 				011B8E0227CBE21D00B66928 /* Info.plist */,
 				01ED97E227CBF30100FD1EF2 /* MyFlutterViewController.swift */,
+				01ED97E427CC055500FD1EF2 /* MyFlutterViewController.xib */,
 			);
 			path = FlutterIntegrationApp;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				011B8E0127CBE21D00B66928 /* LaunchScreen.storyboard in Resources */,
 				011B8DFE27CBE21D00B66928 /* Assets.xcassets in Resources */,
 				011B8DFC27CBE21B00B66928 /* Main.storyboard in Resources */,
+				01ED97E527CC055500FD1EF2 /* MyFlutterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

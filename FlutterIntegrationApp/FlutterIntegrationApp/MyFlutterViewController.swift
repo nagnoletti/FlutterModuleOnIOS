@@ -10,4 +10,11 @@ import Flutter
 
 class MyFlutterViewController: FlutterViewController {
     
+    init() {
+        super.init(engine: AppDelegate.shared.flutterEngine, nibName: "MyFlutterViewController", bundle: nil)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 }

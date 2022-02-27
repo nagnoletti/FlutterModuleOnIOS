@@ -22,7 +22,7 @@ class StartViewController: UIViewController {
     }
 
     @objc func goToFlutterButtonAction(_ sender: UIGestureRecognizer) {
-        let myFlutterVc = MyFlutterViewController(engine: AppDelegate.shared.flutterEngine!, nibName: nil, bundle: nil)
+        let myFlutterVc = MyFlutterViewController()
         self.present(myFlutterVc, animated: true, completion: nil)
     }
 
