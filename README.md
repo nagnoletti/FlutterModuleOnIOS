@@ -1,5 +1,5 @@
-# Flutter integration app
-Example of embedding Flutter into an existing app and communicate with it.
+# FlutterModuleOnIOS
+(Example) Run Flutter 2.x on native Android apps + bridging native APIs
 
 ## Setup
 Clone this repository using command ```git clone``` or your preferred Git client.
